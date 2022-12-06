@@ -1,0 +1,154 @@
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+/* html, body */
+
+html, body {
+    background-color: rgb(13, 48, 68);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.content {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* header section */
+
+.header {
+    background: #d1d1d1;
+    padding: 20px 60px;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* form section */
+.form-section {
+    background: #d1d1d1;
+    padding: 20px 60px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#display-data-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #199ae6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+#display-data-btn:hover {
+    background: #1688ca;
+}
+
+/* feed section */
+
+#feed {
+    background: #d1d1d1;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.col-title-group {
+    display: flex;
+    font-size: 10px;
+    font-weight: 600;
+    color: #161616;
+}
+.title-col {
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.col-set {
+    width: 200px;
+}
+.col-title {
+    width: 200px;
+    margin-left: 5px;
+}
+.col-ck-retail {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.col-ck-buy {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.col-tcg {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.col-retail-margin {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.col-buy-margin {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+
+.card-group {
+    display: flex;
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #161616;
+}
+
+.card-item {
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 2px;
+}
+.card-set {
+    width: 200px;
+}
+.card-title {
+    width: 200px;
+    margin-left: 5px;
+}
+.card-ck-retail {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.card-ck-buy {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.card-tcglow {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.card-retail-margin {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}
+.card-buy-margin {
+    width: 75px;
+    text-align: center;
+    margin-left: 5px;
+}

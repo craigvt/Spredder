@@ -4,23 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./spredder.css">
-    <title>Spredder</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Spreddit</title>
 </head>
 <body>
-    <div class="title-section">
-        <h1>Spredder</h1>
-        <h3>Spread em' mofaller</h3>
+    <div class="wrapper">
+        <div class="content">
+            <div class="header">
+                <h1>Spreddit</h1>
+            </div>
+            <div class="form-section">
+                <form id="setForm">
+                    <label for="set">Choose a set:</label>
+                    <select name="set" id="set">
+                        <option value="antiquities">Antiquities</option>
+                        <option value="avacyn-restored">Avacyn Restored</option>
+                        <option value="battle-for-zendikar">Battle for Zendikar</option>
+                        <option value="coldsnap">Coldsnap</option>
+                        <option value="commander-2017">Commander 2017</option>
+                        <option value="commander-2018">Commander 2018</option>
+                        <option value="commander-legends">Commander Legends</option>
+                        <option value="dark-ascension">Dark Ascension</option>
+                        <option value="eventide">Eventide</option>
+                        <option value="innistrad">Innistrad</option>
+                        <option value="lorwyn">Lorwyn</option>
+                        <option value="mirrodin-besieged">Mirrodin Besieged</option>
+                        <option value="modern-masters">Modern Masters</option>
+                        <option value="morningtide">Morningtide</option>
+                        <option value="new-phyrexia">New Phyrexia</option>
+                        <option value="ravnica">Ravnica</option>
+                        <option value="rise-of-the-eldrazi">Rise of the Eldrazi</option>                                                                     
+                        <option value="scars-of-mirrodin">Scars of Mirrodin</option>
+                        <option value="shadowmoor">Shadowmoor</option>
+                        <option value="shards-of-alara">Shards of Alara</option>
+                        <option value="weatherlight">Weatherlight</option>
+                        <option value="worldwake">Worldwake</option>
+                        <option value="zendikar">Zendikar</option> 
+                    </select>
+                    <input id="get-data-btn" type="submit" value="Get Data">
+                </form>
+                <button id="display-data-btn">Display Data</button>
+            </div>
+        </div>
     </div>
-
-    <div class="button-section">
-        <button id="get-btn">Get Cat</button>
+    <div class="wrapper">
+        <div class="content">
+            <div id="feed">
+                <div class="col-title-group">
+                    <div class="col-set title-col">Set</div>
+                    <div class="col-title title-col">Card Name</div>
+                    <div class="col-ck-retail title-col">CK Retail</div>
+                    <div class="col-retail-margin title-col">CK Margin</div>
+                    <div class="col-tcg title-col">TCG Low</div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="content-section">
-        
-    </div>
-
-    <script src="./spredder.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    <script src="./src/app.js"></script>
 </body>
 </html>
